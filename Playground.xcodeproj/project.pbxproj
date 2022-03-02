@@ -14,6 +14,7 @@
 		1971146F27D00DB20027FA39 /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971146E27D00DB20027FA39 /* PlaygroundTests.swift */; };
 		1971147927D00DB20027FA39 /* PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971147827D00DB20027FA39 /* PlaygroundUITests.swift */; };
 		1971147B27D00DB20027FA39 /* PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971147A27D00DB20027FA39 /* PlaygroundUITestsLaunchTests.swift */; };
+		1971148827D00F7E0027FA39 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1971148727D00F7E0027FA39 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1971147427D00DB20027FA39 /* PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1971147827D00DB20027FA39 /* PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITests.swift; sourceTree = "<group>"; };
 		1971147A27D00DB20027FA39 /* PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1971148727D00F7E0027FA39 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1971145F27D00DB00027FA39 /* ContentView.swift */,
 				1971146127D00DB20027FA39 /* Assets.xcassets */,
 				1971146327D00DB20027FA39 /* Preview Content */,
+				1971148727D00F7E0027FA39 /* Data.swift */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1971146027D00DB00027FA39 /* ContentView.swift in Sources */,
+				1971148827D00F7E0027FA39 /* Data.swift in Sources */,
 				1971145E27D00DB00027FA39 /* PlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

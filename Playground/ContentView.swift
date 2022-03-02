@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    let data = DataService()
+    @State private var helloText = "Cau"
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView {
+            VStack {
+                ForEach(data.getAssets()) { asset in
+                    Text(asset.name)
+                        .fontWeight(.medium)
+                        .padding(10)
+                }
+            }
+        }
     }
 }
 
